@@ -1,0 +1,558 @@
+/* Registration Form */
+.wdt-registration-form{
+    padding: 80px;
+    background-color: var(--wdtAccentTxtColor);
+    width: 100%;
+    max-width: 650px;
+    /* border-radius: var(--wdtRadius_2X); */
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--wdtBorderColor);
+    
+    }
+    .wdt-registration-form form{
+    margin-top: 20px;
+    }
+    .wdt-registration-form .jackie-custom-auth-sc-border-title h2{
+    text-align: center;
+    }
+    .wdt-registration-form p{
+    text-align: center;
+    font-weight: calc(var(--wdtFontWeight_Base) - 100);
+    }
+    .wdt-registration-form p strong{
+    font-weight: calc(var(--wdtFontWeight_Base) - 100);
+    }
+    .wdt-registration-form form p{
+    text-align: left;
+    color: var(--wdtBodyTxtColor);
+    }
+    .wdt-registration-form form p:last-child{
+    text-align: center;
+    }
+    .wdt-registration-form form p a.jackie-pro-login-link{
+    color: var(--wdtLinkHoverColor);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    }
+    .wdt-registration-form form p a.jackie-pro-login-link:hover{
+    /* text-decoration-color: currentColor; */
+    color: var(--wdtHeadAltColor);
+    }
+    .wdt-registration-form form#loginform{
+    display: block;
+    }
+    .jackie-pro-login-description {text-align: center; font-size: var(--wdtFontSize_Base);}
+    .wdt-registration-form input[type="submit"]{
+    width: 100%;
+    padding: var(--wdtPadding_MaxiBtn);
+    font-size: var(--wdtFontSize_Base);
+    font-weight: var(--wdtFontWeight_Alt);
+    }
+    .wdt-registration-form input[type="submit"]:hover{
+    background-color: var(--wdtHeadAltColor);
+    color: var(--wdtAccentTxtColor);
+    }
+    .jackie-pro-login-form-holder #loginform p {
+    margin: 0 0 0 0;
+    }
+    .jackie-pro-login-form-holder #loginform {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    grid-gap: 20px;
+    }
+    
+    .jackie-pro-login-form-holder #login-message{
+        color: var(--wdtPrimaryColor);
+        font-size: var(--wdtFontSize_Ext);
+        margin-bottom: 0;
+    }
+    
+    /* Login form */
+    
+    .jackie-pro-login-form-container{
+    display: block;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    width: 100%;
+    z-index: 10000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    }
+    .jackie-pro-login-form-overlay{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    background:rgba(var(--wdtBodyBGColorRgb),1);
+    cursor: url(../images/pop-close-1.png) 25 25, auto;
+    }
+    .login-form-custom-logo {text-align: center;
+        margin: 10px 0;
+        margin-bottom: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);  /*----min-20px and max-40px-----*/
+    }
+    .login-form-custom-logo img {max-width: 170px;}
+    .jackie-pro-login-form-holder >*:not(:last-child),
+    .jackie-pro-login-form-container .jackie-pro-login-form >*:not(:last-child) {margin-bottom: 30px;}
+    .jackie-pro-login-form-container .jackie-pro-login-form {display: grid;padding: 0;pointer-events: auto;position: absolute;left: 0;right: 0;/* top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); */background-color: rgba(var(--wdtBodyBGColorRgb),1);width: 100%;margin: auto;height: 100%;}
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-wrapper {padding: 70px 100px;border-radius: var(--wdtRadius_Zero);max-width: 650px;height: fit-content;overflow-y: auto;max-height: calc(100vh - 2*1.5em);background: var(--wdtAccentTxtColor);justify-self: center;width: 100%; pointer-events: all; cursor: auto;}
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-title.jackie-pro-login-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);  /*----min-20px and max-40px-----*/
+    }
+    
+    
+    #loginform .login-username, #loginform .login-password{
+    width: 100%;
+    }
+    
+    #loginform .login-remember{
+    text-align: left;
+    font-size: var(--wdtFontSize_Ext);
+    }
+    #loginform p.login-remember input[type="checkbox"]{
+    opacity: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 0px solid var(--wdtHeadAltColor);
+    transform: translateY(-0.075em);
+    display: inline-grid;
+    place-content: center;
+    background: rgba(var(--wdtTertiaryColorRgb),.0);
+    /* border-radius: 3px; */
+    padding: 0 0;
+    }
+    #loginform p.login-remember input[type="checkbox"]:checked{
+        border-color: transparent;
+    }
+    #loginform p.login-remember input[type="checkbox"]:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--wdtHeadAltColor);
+    margin: 0;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: all 0.2s linear;
+    
+    /* box-shadow: inset 1em 1em var(--wdtPrimaryColor); */
+    }
+    #loginform p.login-remember input[type="checkbox"]:checked:after {
+        border-bottom: 2px solid var(--wdtPrimaryColor);
+        border-left: 1px solid transparent;
+        border-right: 2px solid var(--wdtPrimaryColor);
+        border-top: 1px solid transparent;
+        height: 14px;
+        margin-right:4px;
+        margin-top: -2px;
+        transform: rotate(40deg);
+        -webkit-transform: rotate(40deg);
+        transform-origin: 100% 100%;
+        -webkit-transform-origin: 100% 100%;
+        width: 9px;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        background: none;
+    }
+    
+    #loginform input[type="text"]:focus,
+    #loginform input[type="password"]:focus{
+    border-color: var(--wdtPrimaryColor);
+    /* box-shadow: 0 0 0 1px var(--wdtPrimaryColor);
+    -webkit-box-shadow: 0 0 0 1px var(--wdtPrimaryColor); */
+    }
+    #loginform .login-submit input[type="submit"]{
+    width: 100%;
+    background-color: var(--wdtPrimaryColor);
+    padding: var(--wdtPadding_MaxiBtn);
+    border-radius: var(--wdtRadius_Part);
+    }
+    #loginform .login-submit input[type="submit"]:hover{
+    background-color: var(--wdtHeadAltColor);
+    color: var(--wdtAccentTxtColor);
+    }
+    .jackie-pro-social-logins-divider{
+    text-align: center;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    }
+    .jackie-pro-title.jackie-pro-login-title h2{
+    text-align: center;
+    margin-top: 0;
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-holder p.tpl-forget-pwd{
+    margin-bottom: 0px;
+    font-size: var(--wdtFontSize_Ext);
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-holder p.tpl-forget-pwd a{
+    color: var(--wdtLinkHoverColor);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: all 0.3s linear;
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-holder p.tpl-forget-pwd a:hover{
+    text-decoration-color: var(--wdtLinkHoverColor);
+    }
+    
+    a.jackie-pro-social-facebook-connect,
+    a.jackie-pro-social-google-connect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: var(--wdtAccentTxtColor); */
+    color: var(--wdt-elementor-color-black);
+    border-radius: var(--wdtRadius_Part);
+    box-shadow: rgba(var(--wdtLinkHoverColorRgb),1) 0 0 0px;
+    border: 1px solid rgb(var(--wdtLinkColorRgb), .2);
+    /* margin: 10px; */
+    font-size: var(--wdtFontSize_Base);
+    font-weight: var(--wdtFontWeight_Base);  
+    padding: var(--wdtPadding_MaxiBtn);
+    height: 56px;
+    flex: 1;
+    }
+    a.jackie-pro-social-facebook-connect:hover,
+    a.jackie-pro-social-google-connect:hover {
+    background-color: var(--wdtPrimaryColor);
+    color: var(--wdtAccentTxtColor);
+    border-color: var(--wdtPrimaryColor);
+    }
+    a.jackie-pro-social-facebook-connect i,
+    a.jackie-pro-social-google-connect i{
+    margin-right: 15px;
+    line-height: 0;
+    font-size: 24px;
+    position: relative;
+    }
+    a.jackie-pro-social-google-connect svg .google-color-1 {
+        fill: #4280EF;
+    }
+    
+    a.jackie-pro-social-google-connect svg .google-color-2 {
+        fill: #34A353;
+    }
+    
+    a.jackie-pro-social-google-connect svg .google-color-3 {
+        fill: #F6B704;
+    }
+    
+    a.jackie-pro-social-google-connect svg .google-color-4 {
+        fill: #E54335;
+    }
+    
+    a.jackie-pro-social-facebook-connect i::before {
+        content: '';
+        background-color: currentcolor;
+        width: 1em;
+        height: 1em;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath d='M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z'/%3E%3C/svg%3E");
+        mask-position: center center;
+        mask-repeat: no-repeat;
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath d='M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z'/%3E%3C/svg%3E");
+        -webkit-mask-position: center center;
+        -webkit-mask-repeat: no-repeat;
+    }
+    
+    .jackie-pro-login-form-container{
+    /* max-width: 1640px; */
+    margin: auto;
+    }
+    .wdt-registration-form .jackie-custom-auth-register-alert{
+        text-align: center;
+        color: #FF0000;
+        order: 1;
+    }
+
+    .wdt-registration-form .jackie-custom-auth-register-alert-error{
+        text-align: center;
+        color: #FF0000;
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form-holder button{
+        font-family: var(--wdtFontTypo_Alt);
+        text-transform: uppercase;
+        font-weight: var(--wdtFontWeight_Alt);
+    }
+
+    
+    @media only screen and (max-width:1540px) {
+    .jackie-pro-title.jackie-pro-login-title h2 {font-size: var(--wdtFontSize_H3);}
+    .jackie-pro-login-form #loginform {margin-top: 0;}
+    .jackie-pro-social-logins-divider {margin-top: 20px;margin-bottom: 30px;}
+    #loginform {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    grid-gap: 20px;
+    }
+    #loginform .login-submit {
+    margin-bottom: 0;
+    /* grid-area: 3/1; */
+    }
+    }
+    /* @media screen and (min-width: 768px) and (max-width: 1540px){
+    .jackie-pro-login-form-holder #loginform {
+    grid-template-columns: repeat(2,1fr);
+    }
+    } */
+    @media screen and (min-width:1281px) and (max-width: 1540px){
+    .jackie-pro-login-form-container{
+    /* max-width: 1080px; */
+    margin: auto;
+    }
+    
+    .jackie-pro-login-form-holder >*:not(:last-child),
+    .jackie-pro-login-form-container .jackie-pro-login-form >*:not(:last-child) {
+    margin-bottom: 20px;
+    }
+    }
+    @media screen and (min-width:1025px) and (max-width: 1280px){
+    .jackie-pro-login-form-container{
+    /* max-width: 900px; */
+    margin: auto;
+    }    
+    }
+    @media screen and (min-width:768px) and (max-width: 1024px){
+    .jackie-pro-login-form-container{
+    /* max-width: 710px; */
+    margin: auto;
+    }    
+    }
+    @media screen and (max-width: 767px){
+    #loginform .login-username, 
+    #loginform .login-password{
+    margin-bottom: 20px;
+    }
+    .jackie-pro-login-form-container {overflow: scroll;}
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-wrapper{
+    padding: 30px;
+    max-width: 650;
+    margin: 0 20px;
+    width: calc(100% - 40px);
+    }
+    .jackie-pro-title.jackie-pro-login-title h2{
+    font-size: var(--wdtFontSize_H4);
+    }
+    .wdt-registration-form{
+    padding: 30px;
+    }
+    .wdt-registration-form .jackie-custom-auth-sc-border-title h2{
+    font-size: var(--wdtFontSize_H3);
+    }
+    }
+    @media screen and (min-width:480px) and (max-width: 767px){
+    .jackie-pro-login-form-container{
+    margin: auto;
+    }    
+    }
+    @media screen and (max-width: 479px){
+    a.jackie-pro-social-facebook-connect, a.jackie-pro-social-google-connect {
+    padding: 0px;
+    }
+    .jackie-pro-login-form-container{
+    max-width: 100%;
+    margin: auto;
+    }    
+    .jackie-pro-title.jackie-pro-login-title h2{
+    font-size: var(--wdtFontSize_H4);
+    }
+    .wdt-registration-form .jackie-custom-auth-sc-border-title h2{
+    font-size: var(--wdtFontSize_H4);
+    }
+    }
+    
+    
+    
+    /* After Registration */
+    .mu_register{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 50px;
+    background: var(--wdtSecondaryColor);
+    box-shadow: rgba(0,0,0,.8) 0 0 40px;
+    border-radius: var(--wdtRadius_3X);
+    }
+    .mu_register h2{
+    font-size: var(--wdtFontSize_H4);
+    text-align: center;
+    }
+    .mu_register form input{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid transparent;
+    }
+    .mu_register form input:focus{
+    border-color: var(--wdtPrimaryColor);
+    }
+    .mu_register form .wp-signup-username-description,
+    .mu_register form .wp-signup-email-description{
+    margin-bottom: 15px;
+    }
+    .mu_register p.submit{
+    
+    margin-top: 20px;
+    }
+    .mu_register form p.submit input[type="submit"]{
+    font-size: var(--wdtFontSize_Base);
+    }
+    @media screen and (max-width: 479px){
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-wrapper {
+    padding: 30px 20px;
+    margin: 0 15px;
+    width: calc(100% - 30px);
+    }
+    .mu_register{
+    padding: 30px;
+    }
+    }
+    
+    
+    @media only screen and (min-width:1281px) and (max-width:1540px) { .wdt-registration-form { margin-bottom: 100px; } }
+    @media only screen and (min-width:1025px) and (max-width:1280px) { .wdt-registration-form { margin-bottom: 80px; } }
+    @media only screen and (min-width:768px) and (max-width:1024px) { .wdt-registration-form { margin-bottom: 70px; } }
+    @media only screen and (min-width:480px) and (max-width:767px) { .wdt-registration-form { margin-bottom: 60px; } }
+    @media only screen and (max-width: 479px) { .wdt-registration-form { margin-bottom: 60px; } }
+    
+    
+    /* --additional-- */
+    
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-title.jackie-pro-login-title strong{
+        font-weight: var(--wdtFontWeight_H3);
+    }
+    .jackie-pro-title.jackie-pro-login-title h2{
+        font-size: clamp(2rem, 1.8375rem + 0.8125vw, 2.8125rem); /*----min-32px and max-45px-----*/
+        margin-bottom: 5px;
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form .jackie-pro-login-form-wrapper{
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    a.jackie-pro-social-facebook-connect i{
+        width: 24px;
+        height: 24px;
+        color: var(--wdtAccentTxtColor);
+        background-color: #185BB0;
+        border-radius: 5px;
+        display: inline-grid;
+        place-items: center;
+        font-size: 16px;
+        position: relative;
+    }
+    .jackie-pro-social-logins-divider::before{
+        position: relative;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: rgb(var(--wdtLinkColorRgb), .2);
+        margin-right: 10px;
+    }
+    .jackie-pro-social-logins-divider::after{
+        position: relative;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: rgb(var(--wdtLinkColorRgb), .2);
+        margin-left: 10px;
+    }
+
+    .jackie-pro-login-form .jackie-pro-login-form-holder input:not(input[type="submit"]){
+        border-radius: var(--wdtRadius_Zero);
+        background: transparent;
+        border-bottom: 1px solid var(--wdtHeadAltColor);
+        font-size: var(--wdtFontSize_Base);
+        padding: var(--wdtPadding_Btn);
+        background-image: linear-gradient(0deg, var(--wdtPrimaryColor) 50%, var(--wdtPrimaryColor) 50%);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 0 1px;
+        transition: background-size var(--wdt-Ad-Transition), border-color 0.3s linear;
+        -webkit-transition: background-size var(--wdt-Ad-Transition), border-color 0.3s linear;
+    }
+    .jackie-pro-login-form-holder >*:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .jackie-pro-login-form .jackie-pro-login-form-holder input:not(input[type="submit"]):focus{
+        background-size: 100% 1px;
+    }
+    .jackie-pro-login-form .jackie-pro-login-form-holder input:not(input[type="submit"])::placeholder{
+        opacity: 1;
+        color: var(--wdtBodyTxtColor);
+    }
+    .jackie-pro-login-form-container .jackie-pro-login-form {
+        background-color: var(--wdtSecondaryColor);
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        pointer-events: none;
+    }
+    .jackie-pro-login-form .jackie-pro-login-form-holder input[type="checkbox"]{
+        appearance:none;
+        padding:0 !important;
+        margin:0;
+        border:none;
+        position:relative;
+        margin-right:25px;
+    }
+.jackie-pro-login-form .jackie-pro-login-form-holder input[type="checkbox"]::before{
+    content:"";
+    height:15px;
+    width:15px;
+    border:1px solid var(--wdtBodyTxtColor);
+    position:absolute;
+    display:block;
+    top:-8px;
+    transition:all 0.15s linear;
+}
+.jackie-pro-login-form .jackie-pro-login-form-holder input[type="checkbox"]:checked::before{
+    height:17px;
+    width:10px;
+    top:-12px;
+    left:3px;
+    transform:rotate(45deg);
+    border-color:transparent;
+    border-right:2px solid var(--wdtPrimaryColor); 
+    border-bottom:2px solid var(--wdtPrimaryColor);
+}
+
+.jackie-pro-login-form .jackie-pro-social-logins-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    @media(max-width:767px){
+        .jackie-pro-login-form-container .jackie-pro-login-form {
+            padding: 0;
+        }
+    }
+    

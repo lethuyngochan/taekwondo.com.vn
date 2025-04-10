@@ -1,0 +1,78 @@
+/*================================
+    Marquee Animation Style 
+================================*/
+
+.wdt-animation-wrapper { position: relative; display: flex; flex-flow: row nowrap; overflow: hidden; }
+
+.wdt-animation-wrapper div[class*="-marqee"] { width: var(--wdt-marque-width);
+    display: grid; grid-auto-flow: column; align-items: center; }
+
+.wdt-animation-wrapper div[class*="-marqee"] .wdt-animation-item { display: inline-flex; flex: 0 0 auto; text-align: center; position: relative; }
+
+.wdt-animation-wrapper .wdt-animation-item {padding: 0 clamp(1.25rem, 1rem + 1.25vw, 2.5rem)/*40-20*/;}
+
+.wdt-animation-wrapper div[class*="-marqee"].right-to-left,
+.wdt-animation-wrapper div[class*="-marqee"].right-to-left ~ div.wdt-animation-cloned-marqee { 
+    -webkit-animation: MarqueeLeft 24s linear infinite 0ms; animation: MarqueeLeft 24s linear infinite 0ms; }
+.wdt-animation-wrapper div[class*="-marqee"].left-to-right,
+.wdt-animation-wrapper div[class*="-marqee"].left-to-right ~ div.wdt-animation-cloned-marqee { 
+    -webkit-animation: MarqueeRight 24s linear infinite 0ms; animation: MarqueeRight 24s linear infinite 0ms; }
+  
+.wdt-animation-wrapper:hover div[class*="-marqee"].right-to-left,
+.wdt-animation-wrapper:hover div[class*="-marqee"].right-to-left ~ div.wdt-animation-cloned-marqee,
+.wdt-animation-wrapper:hover div[class*="-marqee"].left-to-right,
+.wdt-animation-wrapper:hover div[class*="-marqee"].left-to-right ~ div.wdt-animation-cloned-marqee { 
+    -webkit-animation-play-state: paused; animation-play-state: paused; }
+
+@keyframes MarqueeLeft { 
+    from { transform: translate3d(0, 0, 0); } 
+    to { transform: translate3d(var(--wdt-marque-Margin-Width), 0, 0); } 
+}
+@keyframes MarqueeRight { 
+    from { transform: translate3d(var(--wdt-marque-Margin-Width), 0, 0); } 
+    to { transform: translate3d(0, 0, 0); } 
+}
+
+.wdt-animation-wrapper {
+    position: relative; display: flex; flex-flow: row nowrap; overflow: hidden; mask-image: linear-gradient(to right, transparent 0%, var(--wdtHeadAltColor) 5%, var(--wdtHeadAltColor) 95%, transparent 100%); transition: var(--wdtBaseTransition); -webkit-transition: var(--wdtBaseTransition); }
+
+/* ===========================
+    Animation Text Style 
+=========================== */
+
+.wdt-animation-item { display: inline-block; }
+.wdt-animation-item .wdt-animation-text { font-size: clamp(2rem, 1.65rem + 1.75vw, 3.75rem); /* Min-32 & Max-60 */
+    font-weight: var(--wdtFontWeight_Alt); font-family: var(--wdtFontTypo_Alt); text-transform: uppercase; line-height: 1; }
+
+.wdt-animation-item .wdt-animation-text a { text-decoration: none !important; }
+.wdt-animation-item .wdt-animation-text a:hover {
+    color: var(--wdtPrimaryColor);
+}
+/* .wdt-animation-item .wdt-animation-text a:hover {
+    background-color: transparent; background-size: cover; color: transparent;
+    background-clip: text; -webkit-background-clip: text; -webkit-text-stroke: 2px var(--wdtPrimaryColor); } */
+
+/* ===========================
+    Animation Icon Style 
+=========================== */
+
+.wdt-animation-item.icon-item i { display: flex; align-items: center; justify-content: center;
+    font-size: clamp(1.75rem, 1.4615rem + 1.2821vw, 3rem); /* Min-28 & Max-48 */
+    width: clamp(1.75rem, 1.4615rem + 1.2821vw, 3rem); /* Min-28 & Max-48 */
+    height: clamp(1.75rem, 1.4615rem + 1.2821vw, 3rem); /* Min-28 & Max-48 */ }
+
+/* ===========================
+    Animation Image Style 
+=========================== */
+
+.wdt-animation-item img { object-fit: cover; object-position: center;
+    width: clamp(1.75rem, 1.4615rem + 1.2821vw, 3rem); /* Min-28 & Max-48 */
+    height: clamp(1.75rem, 1.4615rem + 1.2821vw, 3rem); /* Min-28 & Max-48 */ }
+
+/* ===========================
+    Responsive
+=========================== */
+
+
+
+
