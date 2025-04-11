@@ -126,14 +126,14 @@
     order: -1;
 }
 .wdt-progressbar-circle .wdt-progressbar-content .wdt-progressbar-title{
-    font-family: var(--wdtFontTypo_Alt);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem); /* Min-20 & Max-24 */
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
     font-weight: var(--wdtFontWeight_H5);
     color: var(--wdtHeadAltColor);
     text-transform: uppercase;
 }
 .wdt-progressbar-container.wdt-progressbar-circle .wdt-progressbar-value{
-    font-family: var(--wdtFontTypo_Alt);
+    font-family: "Roboto", sans-serif;
     font-size: var(--wdtFontSize_H6);
     font-weight: var(--wdtFontWeight_H6);
     color: var(--wdtHeadAltColor) !important;

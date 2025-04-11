@@ -26,8 +26,8 @@ var twemoji = (function (
       // default assets url, by default will be jsDelivr CDN
       base: 'https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/',
 
-      // default assets file extensions, by default '.png'
-      ext: '.png',
+      // default assets file extensions, by default '.webp'
+      ext: '.webp',
 
       // default assets/folder size, by default "72x72"
       // available via Twitter CDN: 72
@@ -174,7 +174,7 @@ var twemoji = (function (
        *     return '/assets/' + options.size + '/' + iconId + options.ext;
        *   }
        * });
-       *  // I <img class="emoji" draggable="false" alt="❤️" src="/assets/72x72/2764.png"/> emoji!
+       *  // I <img class="emoji" draggable="false" alt="❤️" src="/assets/72x72/2764.webp"/> emoji!
        *
        */
       parse: parse,

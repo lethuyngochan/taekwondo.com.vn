@@ -656,7 +656,7 @@
 }
 */
 [class^="wdt-Jackie-"]:before, [class*=" wdt-Jackie-"]:before {
-  font-family: "wdt-jackie-ext-icon";
+  font-family: 'Font Awesome 6 Free';
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -691,10 +691,10 @@
 }
 
 .wdt-Jackie-blog-right-arrow:before { content: '\e800'; } /* '' */
-.wdt-Jackie-calender-icon:before { content: '\e801'; } /* '' */
+.wdt-Jackie-calender-icon:before { content: '\f073'; } /* '' */
 .wdt-Jackie-clock-icon:before { content: '\e802'; } /* '' */
 .wdt-Jackie-menu-icon:before { content: '\e804'; } /* '' */
-.wdt-Jackie-ninja-star-icon:before { content: '\e805'; } /* '' */
+.wdt-Jackie-ninja-star-icon:before { content: '\f0e7'; } /* '' */
 .wdt-Jackie-search-icon:before { content: '\e806'; } /* '' */
 .wdt-Jackie-star-icon:before { content: '\e807'; } /* '' */
 .wdt-Jackie-subtitle-1-icon-01:before { content: '\e808'; } /* '' */

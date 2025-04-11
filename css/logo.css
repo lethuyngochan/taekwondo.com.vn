@@ -3,8 +3,20 @@
    Logo
 --------------------------------------------------------------*/
 
+@font-face {
+    font-family: "Shojumaru";
+    src: url(../fonts/Shojumaru-Regular.ttf);
+}
+
 .wdt-logo-container a {
-    color: inherit;
+    font-family: "Shojumaru", sans-serif;
+    font-size: 2.5em;
+}
+
+@media(max-width:480px) {
+    .wdt-logo-container a {
+        font-size: 2em;
+    }
 }
 
 .wdt-logo-container a img {

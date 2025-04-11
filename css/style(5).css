@@ -44,7 +44,7 @@
 {
     font-size: var(--wdtFontSize_Base);
     letter-spacing: 0;
-    font-family: var(--wdtFontTypo_H5);
+    font-family: "Roboto", sans-serif;
     line-height: var(--wdtLineHeight_H5);
     font-weight: var(--wdtFontWeight_H5);
     text-transform: uppercase;
@@ -153,8 +153,6 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
-    white-space: break-spaces;
 }
 
 .wdt-heading-holder > .wdt-heading-deco-wrapper > span .wdt-heading-deco-line
@@ -264,15 +262,6 @@
 }
 /*----type - 1 ------*/
 
-.wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type1 .wdt-heading-subtitle:before
-{
-    content: '\e808';
-    font-family: "wdt-jackie-ext-icon";
-    font-size: 40px;
-    margin-right: -50px;
-    color: var(--wdtHeadAltColor);
-    margin-top: -2px;
-}
 .wdt-dark-bg .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type1 .wdt-heading-subtitle:before{
     color: var(--wdtAccentTxtColor);
 }
@@ -285,14 +274,14 @@
 
 .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type2 .wdt-heading-subtitle:before{
     content: '\e809';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-right: 10px;
     color:var(--wdtSecondaryColor);
     margin-top: -2px;
 }
 .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type2 .wdt-heading-subtitle:after{
     content: '\e80a';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-left: 10px;
     color:var(--wdtSecondaryColor);
     margin-top: -2px;
@@ -316,7 +305,7 @@
 .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type3 .wdt-heading-subtitle:before{
     content: '';
     position: relative;
-    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-left.png');
+    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-left.webp');
     height: 1.43em;
     width: 4.5em;
     background-size: cover;
@@ -326,7 +315,7 @@
 .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type3 .wdt-heading-subtitle:after{
     content: '';
     position: relative;
-    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-right.png');
+    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-right.webp');
     height: 1.43em;
     width: 5.06em;
     background-size: cover;
@@ -334,10 +323,10 @@
     margin-top: -0.15em;
 }
 .wdt-dark-bg .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type3 .wdt-heading-subtitle:before{
-     background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-left-01.png');
+     background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-left-01.webp');
 }
 .wdt-dark-bg .wdt-heading-holder .wdt-heading-subtitle-wrapper.wdt-subtitle-type3 .wdt-heading-subtitle:after{
-    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-right-01.png');
+    background-image: url('/https://wdtjackie.wpengine.com/wp-content/uploads/2025/01/Subtitle-img-right-01.webp');
 }
 
 /*----type - 4 ------*/

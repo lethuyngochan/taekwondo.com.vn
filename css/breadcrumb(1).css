@@ -49,7 +49,7 @@
 
 .main-title-section-wrapper .breadcrumb-default-delimiter:before {
   content: '\e805';
-  font-family: "wdt-jackie-ext-icon";
+  font-family: 'Font Awesome 6 Free';
   font-weight: var(--wdtFontWeight_Alt);
   /* background-color: currentColor; */
   display: inline-block;

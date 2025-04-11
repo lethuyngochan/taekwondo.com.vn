@@ -1554,8 +1554,8 @@
 }
 
 .wdt-event-item.type1 .wdt-event-item-description .wdt-trainer-details::before {
-    content: '\e80d';
-    font-family: "wdt-jackie-ext-icon";
+    content: '\f2bd';
+    font-family: 'Font Awesome 6 Free';
     transition: var(--wdtBaseTransition);
 }
 
@@ -1912,7 +1912,7 @@
 
 .wdt-event-item.type2 .wdt-event-item-duration-details p.wdt-dur span:before {
     content: '\e80c';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-right: 10px;
     font-size: calc(var(--wdtFontSize_Ext) - 4px);
     color: var(--wdtPrimaryColor);
@@ -1931,7 +1931,7 @@
 
 .wdt-event-item.type2 .wdt-event-item-duration-details .wdt-event-item-duration-warapper p.wdt-dur span:before {
     content: '\e802';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-right: 10px;
     font-size: var(--wdtFontSize_Base);
     color: var(--wdtPrimaryColor);
@@ -2160,7 +2160,7 @@ body.tribe_events-template .tribe-common {
 
 #tribe-events-pg-template .entry-post-navigation.type1 .post-prev-link .nav-title-wrap a::before {
     content: '\e800';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-right: 10px;
     display: inline-block;
     transform: translateY(-10%);
@@ -2173,7 +2173,7 @@ body.tribe_events-template .tribe-common {
 
 #tribe-events-pg-template .entry-post-navigation.type1 .post-next-link .nav-title-wrap a::after {
     content: '\e800';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     margin-left: 10px;
     display: inline-block;
     transform: translateY(-10%);
@@ -2641,7 +2641,7 @@ body.tribe_events-template .tribe-common {
 }
 
 .wdt-cus-home-2-banner-heading .wdt-heading-holder h2.wdt-heading-title-wrapper .wdt-heading-title {
-    font-size: clamp(2rem, 0.7984rem + 4.0222vw, 5.625rem);
+    font-size: 1.2em;
     /* Min-32 & Max-90 */
 }
 
@@ -3099,7 +3099,7 @@ body.tribe_events-template .tribe-common {
 .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th {
     padding: 1rem;
     font-family: var(--wdtFontTypo_Alt);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    font-size: 1em;
     /* Min-20 & Max-24 */
     font-weight: var(--wdtFontWeight_Alt);
     text-transform: uppercase;
@@ -3110,7 +3110,7 @@ body.tribe_events-template .tribe-common {
 
 .mptt-shortcode-wrapper .mptt-shortcode-table tbody td.mptt-shortcode-hours {
     font-family: var(--wdtFontTypo_Alt);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    font-size: 1em;
     /* Min-20 & Max-24 */
     font-weight: var(--wdtFontWeight_Alt);
     text-transform: uppercase;
@@ -3125,7 +3125,7 @@ body.tribe_events-template .tribe-common {
 
 .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-title {
     font-family: var(--wdtFontTypo_Alt);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    font-size: 1em;
     /* Min-20 & Max-24 */
     font-weight: var(--wdtFontWeight_Alt);
     text-transform: uppercase;
@@ -3336,7 +3336,7 @@ body.single-mp-event .timeslot {
  }
  .wdt-event-item.type3 .wdt-event-time-location .wdt-event-time:before{
     content: '\e802';
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     color: var(--wdtPrimaryColor);
     font-weight: var(--wdtFontWeight_Alt);
     margin-right: 10px;

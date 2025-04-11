@@ -44,8 +44,8 @@
     .wdt-simple-style.wdt-post-entry.entry-list-layout .blog-entry > div:last-child { margin-bottom: 25px; }
 
     /* .wdt-simple-style.wdt-post-entry.entry-list-layout:before { 
-        mask-image: url(../images/simple-blog-pattern.png);
-        -webkit-mask-image: url(../images/simple-blog-pattern.png); 
+        mask-image: url(../images/simple-blog-pattern.webp);
+        -webkit-mask-image: url(../images/simple-blog-pattern.webp); 
         mask-repeat: repeat; 
         -webkit-mask-repeat: repeat;
         background-color: rgba(var(--wdtHeadAltColorRgb),1);

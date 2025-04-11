@@ -1261,7 +1261,7 @@ function safeDecodeURI(uri) {
  * @example
  * ```js
  * const displayUrl = filterURLForDisplay( 'https://www.wordpress.org/gutenberg/' ); // wordpress.org/gutenberg
- * const imageUrl = filterURLForDisplay( 'https://www.wordpress.org/wp-content/uploads/img.png', 20 ); // …ent/uploads/img.png
+ * const imageUrl = filterURLForDisplay( 'https://www.wordpress.org/wp-content/uploads/img.webp', 20 ); // …ent/uploads/img.webp
  * ```
  *
  * @return {string} Displayed URL.
@@ -1351,8 +1351,8 @@ function cleanForSlug(string) {
  *
  * @example
  * ```js
- * const filename1 = getFilename( 'http://localhost:8080/this/is/a/test.jpg' ); // 'test.jpg'
- * const filename2 = getFilename( '/this/is/a/test.png' ); // 'test.png'
+ * const filename1 = getFilename( 'http://localhost:8080/this/is/a/test.webp' ); // 'test.webp'
+ * const filename2 = getFilename( '/this/is/a/test.webp' ); // 'test.webp'
  * ```
  *
  * @return {string|void} The filename part of the URL.

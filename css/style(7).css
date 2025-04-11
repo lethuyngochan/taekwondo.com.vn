@@ -10,7 +10,7 @@
 .wdt-popup-box-window.mfp-bg, 
 .wdt-popup-box-window.mfp-wrap { height: auto; bottom: 0; left: 0; right: 0; top: 0; width: auto; cursor: default; }
 
-/* .wdt-fade-zoom.mfp-ready .mfp-container.mfp-inline-holder, .wdt-fade-zoom.mfp-ready .mfp-container.mfp-inline-holder .mfp-content {cursor: url(../images/Close-1.png) 25 25, auto;} */
+/* .wdt-fade-zoom.mfp-ready .mfp-container.mfp-inline-holder, .wdt-fade-zoom.mfp-ready .mfp-container.mfp-inline-holder .mfp-content {cursor: url(../images/Close-1.webp) 25 25, auto;} */
 
 .wdt-popup-box-window.mfp-wrap .mfp-container.mfp-inline-holder .mfp-content .wdt-popup-box-content-holder { 
     background-color: var(--wdtAccentTxtColor); height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; 

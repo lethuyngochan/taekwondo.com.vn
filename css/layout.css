@@ -236,7 +236,7 @@
 
 .blog-single-entry.post-minimal .entry-thumb~.post-meta .single-entry-author .meta-author-info a::before,
 .blog-single-entry.post-minimal .entry-thumb~.post-meta .single-entry-date::before {
-    font-family: "wdt-jackie-ext-icon";
+    font-family: 'Font Awesome 6 Free';
     color: var(--wdtPrimaryColor);
     margin-right: 8px;
     line-height: 1;
@@ -2048,8 +2048,8 @@
     font-size: 20px;
 }
 .wdt-cus-testimonial-type1 .wdt-content-item .wdt-rating li span:before{
-    content: '\e807';
-    font-family: "wdt-jackie-ext-icon";
+    content: '\f005';
+    font-family: 'Font Awesome 6 Free';
 }
 .wdt-cus-testimonial-type1 .wdt-content-item .wdt-content-icon-wrapper .wdt-content-icon span{
     font-size: 70px;
@@ -2112,8 +2112,8 @@
 }
 .wdt-homepage-form .wdt-from-date{position: relative;}
 .wdt-homepage-form .wdt-from-date:before{
-    content: '\e801';
-    font-family: "wdt-jackie-ext-icon";
+    content: '\f073';
+    font-family: 'Font Awesome 6 Free';
     font-size: 18px;
     color: var(--wdtPrimaryColor);
     position: absolute;

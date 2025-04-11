@@ -21,7 +21,7 @@
     .widget .recent-posts-widget li .entry-image { grid-area: 1/1; height: 100%;}
     .widget .recent-posts-widget li .entry-title { grid-area: 2/2; }
     .widget .recent-posts-widget li .entry-meta { grid-area: 1/2; font-size: 14px; display: flex; flex-direction: row-reverse; justify-content: start; flex-wrap: wrap; color: var(--wdtPrimaryColor); margin-bottom: 15px; }
-    .widget .recent-posts-widget li .entry-meta p span::before { content: ''; font-family: "wdt-jackie-ext-icon"; line-height: 1; display: inline-block; width: 1em; height: 1em; }
+    .widget .recent-posts-widget li .entry-meta p span::before { content: ''; font-family: 'Font Awesome 6 Free'; line-height: 1; display: inline-block; width: 1em; height: 1em; }
     .widget .recent-posts-widget li .entry-meta p span.wdticon-author-icon::before { content: '\e80e'; }
     .widget .recent-posts-widget li .entry-meta p span.wdticon-date-o::before { content: '\e801'; }
     .widget .recent-posts-widget li:before { display: none; }
@@ -251,7 +251,7 @@
     /* Magazine stripe title */
     .mz-stripe-title { float:left; overflow:hidden; width: 100%; }
     .mz-stripe-title .mz-stripe-title-content { clear: both; float: left; margin-bottom:30px; position: relative; }
-    .mz-stripe-title .mz-stripe-title-content:after { background: url(../images/title-pattern.png) repeat; content:""; height:100%; top:0; left:100%; position:absolute; width:9000px; }
+    .mz-stripe-title .mz-stripe-title-content:after { background: url(../images/title-pattern.webp) repeat; content:""; height:100%; top:0; left:100%; position:absolute; width:9000px; }
     .mz-stripe-title .mz-stripe-title-content .wdt-main-heading, .mz-stripe-title .mz-stripe-title-content h3.widgettitle { background: var(--wdtHeadAltColor); line-height: normal; margin: 0; padding:12px 15px; position:relative; left: 0; text-transform:capitalize; z-index:1; }
 
     .mz-stripe-title .mz-stripe-title-content h3.widgettitle { font-size:18px; }

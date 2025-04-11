@@ -27,7 +27,7 @@
     /* Type 4 */
     .secondary-sidebar .type4 .widget { overflow: hidden; }
     .secondary-sidebar .type4 .widgettitle { border-left: 5px solid #f1b956; padding: 0 15px; }
-    .secondary-sidebar .type4 .widgettitle:before { top:0; height:100%; width:9999px; left:100%; background:url(../images/sidebar-title-grey-pattern.png) repeat; }
+    .secondary-sidebar .type4 .widgettitle:before { top:0; height:100%; width:9999px; left:100%; background:url(../images/sidebar-title-grey-pattern.webp) repeat; }
 
 
     /* Type 5 */
@@ -74,7 +74,7 @@
     /* Type 6 */
     .secondary-sidebar .type6 .widgettitle { border-left:3px solid; padding:0 0 0 15px;  margin-bottom:40px; width:100%; }
     .secondary-sidebar .type6 .widgettitle:before { height:1px; background:rgba(var(--wdtHeadAltColorRgb),0.25); top:inherit; bottom:-10px; width:100%; }
-    .secondary-sidebar .type6 .widgettitle:after { position:absolute; background:url(../images/sidebar-title-arrow.png) no-repeat; width:13px; height:8px; left:30px; bottom:-17px; }
+    .secondary-sidebar .type6 .widgettitle:after { position:absolute; background:url(../images/sidebar-title-arrow.webp) no-repeat; width:13px; height:8px; left:30px; bottom:-17px; }
 
 
         /* Accents */
@@ -180,7 +180,7 @@
     .secondary-sidebar .type10 .widget { padding-top:2px; overflow: hidden; }
     .secondary-sidebar .type10 .widgettitle { margin-top:0; padding:8px 20px; margin-bottom:20px; color:var(--wdtAccentTxtColor); font-size:18px; }
     .secondary-sidebar .type10 .widgettitle:before { background: var(--wdtHeadAltColor); height:100%; width:100%; left: -15px; z-index:-1; }
-    .secondary-sidebar .type10 .widgettitle:after { background:  var(--wdtHeadAltColor); height:100%; position:absolute; right:-4px; top: 0; width:19px; -webkit-mask-image: url(../images/sidebar-title-shape.png); mask-image: url(../images/sidebar-title-shape.png); -webkit-mask-position: center center; mask-position: center center; -webkit-mask-size: cover; mask-size: cover; }
+    .secondary-sidebar .type10 .widgettitle:after { background:  var(--wdtHeadAltColor); height:100%; position:absolute; right:-4px; top: 0; width:19px; -webkit-mask-image: url(../images/sidebar-title-shape.webp); mask-image: url(../images/sidebar-title-shape.webp); -webkit-mask-position: center center; mask-position: center center; -webkit-mask-size: cover; mask-size: cover; }
 
         @media only screen and (min-width:768px) and (max-width:1024px) {
 
@@ -195,7 +195,7 @@
     .secondary-sidebar .type11 .widgettitle:before { position: absolute; right: -18px; top: 50%; margin: auto; width: 24px; height: 17px; left:auto; transform: translateY(-50%);
     -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); }
 
-    .secondary-sidebar .type11 .widgettitle:before { -webkit-mask-image: url(../images/sidebar-title-floral2.png); mask-image: url(../images/sidebar-title-floral2.png);
+    .secondary-sidebar .type11 .widgettitle:before { -webkit-mask-image: url(../images/sidebar-title-floral2.webp); mask-image: url(../images/sidebar-title-floral2.webp);
     -webkit-mask-position: center center; mask-position: center center; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; background: currentColor; }
 
     .secondary-sidebar .type11 .woocommerce ul.cart_list li a, .secondary-sidebar .type11 .woocommerce ul.product_list_widget li a { font-weight: 300; }
@@ -352,7 +352,7 @@
     /* Type 18 */
     .secondary-sidebar .type18 .widget-stripe-title { overflow:hidden; float:left; width: 100%; }
     .secondary-sidebar .type18 .widget-stripe-title .widget-stripe-title-content { margin-bottom:30px; position: relative; clear: both; float: left; }
-    .secondary-sidebar .type18 .widget-stripe-title .widget-stripe-title-content:after { background:url(../images/title-pattern.png) repeat; content:""; height:100%; top:0; left:100%; position:absolute; width:9000px; }
+    .secondary-sidebar .type18 .widget-stripe-title .widget-stripe-title-content:after { background:url(../images/title-pattern.webp) repeat; content:""; height:100%; top:0; left:100%; position:absolute; width:9000px; }
     .secondary-sidebar .type18 .widget-stripe-title .widget-stripe-title-content h2, .secondary-sidebar .type18 .widget-stripe-title .widget-stripe-title-content h3.widgettitle { background: var(--wdtHeadAltColor); padding:12px 15px; position:relative; z-index:1; margin:0; left:0; font-size:16px; text-transform:uppercase; color:var(--wdtAccentTxtColor); }
 
 

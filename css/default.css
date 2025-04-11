@@ -431,7 +431,7 @@
     .pswp__ui { float: left; }
     .pswp__ui button.pswp__button[class*="pswp__button--"] { background: none !important; float: left; height: 50px; margin-top: 0; padding: 0; position: relative; width: 50px; }
     .pswp__ui .pswp__top-bar button.pswp__button[class*="pswp__button--"] { float: right; }
-    .pswp__ui button.pswp__button[class*="pswp__button--"]:before { background-image:url("../images/default-skin.png"); content: ""; display: block; height: 50px; position: absolute; top: 0; width: 50px; }
+    .pswp__ui button.pswp__button[class*="pswp__button--"]:before { background-image:url("../images/default-skin.webp"); content: ""; display: block; height: 50px; position: absolute; top: 0; width: 50px; }
     .pswp__button--arrow--right:before, .pswp__button--arrow--left:before { background-color: transparent; top: 11px; }
 
     .pswp__button.pswp__button--close:before { background-position: 2px -42px; }
